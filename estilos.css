@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #ffffff;  
+    font-family: 'Poppins', sans-serif; /* Llamo al tipo de letra importada  */
+    overflow-x: hidden;
+}
+
+p {
+    margin-top:15px;
+}
+
+#hr1 {
+    background-color: red;
+    height:25px;
+    margin-bottom:-1px;
+    margin-top: -1px;
+}
+
+#hr2 {
+    background-color: black;
+    height:25px;
+    margin-bottom:-1px;
+    margin-top: -1px;
+}
+
+#header {
+    margin: 0px 0px 0px 0px;
+    width: 1365px;
+    //font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index:2;
+    text-align:right;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav li a {
+    background-color: rgb(11, 10, 12);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: rgb(58, 58, 36);
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right: -140px;  /*ir ajustando para que quede como uno quiere*/
+    top:0px;
+}
+
+.imagen {
+    z-index: 1;
+    position: relative;
+    margin: 0px;
+}
+
+.texto {
+    z-index: 1;
+    position: relative;
+    margin: 20px 30px 0px 30px;
+    text-align: justify;
+}
+
+#carouselExampleControls img {
+    filter:brightness(0.4);    
+}
+
+.carousel-caption {
+    position:absolute; 
+    right: 5%;
+    top: 325px; 
+    bottom: 0px;
+    left: 50%;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: right;
+    font-size:larger;
+
+}
+
+#textos {
+    background-color:darkred;
+    color:white;
+    font-size:medium;
+    text-align: justify;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#texto {
+    text-align: justify;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align:center;
+}
